@@ -1,3 +1,9 @@
 #!/bin/bash
-STR="Hello World OMG!"
-echo $STR
+HELLO=Hello
+function hello {
+    local HELLO=World
+    echo $HELLO
+}
+echo $HELLO
+hello
+echo $HELLO
