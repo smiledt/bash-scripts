@@ -1,2 +1,3 @@
 #!/bin/bash
-echo Hello World!
+STR="Hello World OMG!"
+echo $STR

@@ -1,2 +1,3 @@
 #!/bin/bash
-tar -cZf /mnt/storage/tmp/backup/simple-backup.tgz /home/smiledt
+OF=/mnt/storage/tmp/backup/simple-backup-$(date +%Y-%m-%d).tgz
+tar -cZf $OF /home/smiledt/
